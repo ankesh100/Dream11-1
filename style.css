@@ -472,8 +472,19 @@ border: 1px solid #ccc; font-size: 10px; border-radius: 100%; cursor: pointer;  
 .upcoming-fixture-date::before{ content: "vs"; position: absolute; left: 50%; top: 50%; font-size: 60px; margin: -51px 0 0 -35px;
 z-index: 1; color: #f2f2f2;}
 .logo-width-name.w-icon{ position: relative;}
-.logo-width-name.w-icon::after{ content: "\f105"; height: 23px; width: 23px; border: 1px solid rgba(0,0,0,0.1); display: inline-block;
-border-radius: 100%; font-family: fontawesome; text-align: center; line-height: 20px; color: #999; margin: -20px 0 0 10px; cursor: pointer;}
+.logo-width-name.w-icon::after{ content: "\f105";
+    height: 23px;
+    width: 23px;
+    border: 1px solid rgba(0,0,0,0.1);
+    display: inline-block;
+    border-radius: 100%;
+    font-family: fontawesome;
+    text-align: center;
+    line-height: 20px;
+    color: #999;
+    margin: 5px 0 0 10px;
+    cursor: pointer;
+    float: right;}
 
 /* Last Matches */
 .bg-fixed{ background: url(images/pattern-bg.jpg);}
@@ -566,9 +577,9 @@ border: 1px solid #fff; font-size: 10px; border-radius: 100%; cursor: pointer;  
 
 /* Facts Acounter */
 .facts-list-acounter li{ width: 33%; text-align: left; float: left; margin: 20px 0;}
-.facts-number{ font-size: 45px; font-weight: bold; color: #0c0c0c; margin: 0 0 10px; display: block;}
+.facts-number{ font-size: 45px; font-weight: bold; color: #ffffff; margin: 0 0 10px; display: block;}
 .facts-number i{ margin: 0 10px 0 0; vertical-align: middle; font-size: 30px;}
-.facts-list-acounter li span{ color: #555; position: relative; display: block; text-transform: uppercase; font-weight: 600; padding: 0 0 10px;}
+.facts-list-acounter li span{ color: #ffffff; position: relative; display: block; text-transform: uppercase; font-weight: 600; padding: 0 0 10px;}
 .facts-list-acounter li span::before{ content: ""; position: absolute; width: 60px; border-bottom: 3px solid; bottom: 0;}
 
 /* Gallery */
